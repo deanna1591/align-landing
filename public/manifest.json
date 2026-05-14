@@ -1,0 +1,16 @@
+{
+  "name": "Align",
+  "short_name": "Align",
+  "description": "A calmer weekly planner",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#FFFFFF",
+  "theme_color": "#7CA481",
+  "icons": [
+    {
+      "src": "/align-icon.svg",
+      "sizes": "any",
+      "type": "image/svg+xml"
+    }
+  ]
+}

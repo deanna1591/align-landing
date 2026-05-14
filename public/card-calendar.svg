@@ -1,0 +1,46 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 540">
+  <title>Align calendar integration card</title>
+  <defs>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#1B1813" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <g filter="url(#sh)">
+    <rect width="600" height="540" rx="24" fill="#FFFFFF"/>
+    <g transform="translate(50, 80)">
+      <text font-family="Fraunces, serif" font-size="32" font-weight="500" fill="#7CA481">Wednesday</text>
+      <text x="400" y="0" font-family="Inter Tight, sans-serif" font-size="11" fill="#7CA481" letter-spacing="0.18em" font-weight="600">MAY 13</text>
+      <line x1="0" y1="14" x2="500" y2="14" stroke="#7CA481" stroke-width="1"/>
+    </g>
+    <g transform="translate(40, 60)">
+      <rect width="160" height="26" rx="13" fill="#F5F8F4"/>
+      <circle cx="14" cy="13" r="5" fill="#7CA481"/>
+      <text x="26" y="16" font-family="Inter Tight, sans-serif" font-size="10" fill="#5A8061" font-weight="500">Google synced</text>
+    </g>
+    <g transform="translate(50, 160)">
+      <circle cx="6" cy="6" r="4" fill="#5C7A99"/>
+      <text x="22" y="11" font-family="Inter Tight, sans-serif" font-size="16" font-weight="500" fill="#1B1813">Team standup</text>
+      <text x="22" y="30" font-family="Inter Tight, sans-serif" font-size="13" fill="#9A917F">9:00 am · from Google</text>
+    </g>
+    <g transform="translate(50, 220)">
+      <circle cx="6" cy="6" r="4" fill="#5C7A99"/>
+      <text x="22" y="11" font-family="Inter Tight, sans-serif" font-size="16" font-weight="500" fill="#1B1813">Design review</text>
+      <text x="22" y="30" font-family="Inter Tight, sans-serif" font-size="13" fill="#9A917F">11:00 am · from Google</text>
+    </g>
+    <g transform="translate(50, 280)">
+      <circle cx="6" cy="6" r="4" fill="#7CA481"/>
+      <text x="22" y="11" font-family="Inter Tight, sans-serif" font-size="16" font-weight="500" fill="#1B1813">Picking up Eva</text>
+      <text x="22" y="30" font-family="Inter Tight, sans-serif" font-size="13" fill="#9A917F">3:30 pm · from Google</text>
+    </g>
+    <line x1="50" y1="340" x2="550" y2="340" stroke="#F2F2F2" stroke-width="0.5" stroke-dasharray="4 4"/>
+    <text x="50" y="370" font-family="Inter Tight, sans-serif" font-size="11" fill="#9A917F" letter-spacing="0.18em" font-weight="600">YOUR TASKS</text>
+    <g transform="translate(50, 400)">
+      <rect width="16" height="16" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="28" y="14" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">Draft Q3 plan</text>
+    </g>
+    <g transform="translate(50, 440)">
+      <rect width="16" height="16" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="28" y="14" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">Reply to Jamie</text>
+    </g>
+  </g>
+</svg>

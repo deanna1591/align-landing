@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 540">
+  <title>Align today's three card</title>
+  <defs>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#1B1813" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <g filter="url(#sh)">
+    <rect width="600" height="540" rx="24" fill="#FFFFFF"/>
+    <g transform="translate(50, 60)">
+      <circle cx="6" cy="6" r="8" fill="#7CA481" opacity="0.25"/>
+      <circle cx="6" cy="6" r="4" fill="#7CA481"/>
+      <text x="22" y="11" font-family="Inter Tight, sans-serif" font-size="11" fill="#5C5448" letter-spacing="0.22em" font-weight="600">TODAY'S THREE</text>
+    </g>
+    <g transform="translate(50, 130)">
+      <text font-family="Fraunces, serif" font-size="42" font-weight="400" fill="#1B1813">Three things.</text>
+      <text y="48" font-family="Fraunces, serif" font-style="italic" font-size="42" font-weight="500" fill="#7CA481">That's the day.</text>
+    </g>
+    <line x1="50" y1="260" x2="550" y2="260" stroke="#F2F2F2" stroke-width="0.5"/>
+    <g transform="translate(50, 296)">
+      <text font-family="Fraunces, serif" font-size="22" fill="#9A917F">01</text>
+      <text x="52" y="2" font-family="Inter Tight, sans-serif" font-size="17" fill="#1B1813" font-weight="500">Reply to Jamie's email</text>
+      <text x="52" y="24" font-family="Inter Tight, sans-serif" font-size="13" fill="#9A917F">10:30 am</text>
+    </g>
+    <line x1="50" y1="354" x2="550" y2="354" stroke="#F2F2F2" stroke-width="0.5"/>
+    <g transform="translate(50, 390)">
+      <text font-family="Fraunces, serif" font-size="22" fill="#9A917F">02</text>
+      <text x="52" y="2" font-family="Inter Tight, sans-serif" font-size="17" fill="#1B1813" font-weight="500">Draft Q3 plan</text>
+      <text x="52" y="24" font-family="Inter Tight, sans-serif" font-size="13" fill="#9A917F">all day</text>
+    </g>
+    <line x1="50" y1="448" x2="550" y2="448" stroke="#F2F2F2" stroke-width="0.5"/>
+    <g transform="translate(50, 484)">
+      <text font-family="Fraunces, serif" font-size="22" fill="#9A917F">03</text>
+      <text x="52" y="2" font-family="Inter Tight, sans-serif" font-size="17" fill="#1B1813" font-weight="500">Call dentist about Friday</text>
+    </g>
+  </g>
+</svg>

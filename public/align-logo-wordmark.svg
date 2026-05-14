@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 160" width="500" height="160">
+  <title>Align</title>
+  <desc>Align wordmark logo with sage green sparkles overlaying the dot of the i.</desc>
+
+  <defs>
+    <symbol id="sparkle" viewBox="-12 -12 24 24" overflow="visible">
+      <path d="M0,-12 Q1.8,-2 12,0 Q1.8,2 0,12 Q-1.8,2 -12,0 Q-1.8,-2 0,-12 Z" fill="#7CA481"/>
+    </symbol>
+  </defs>
+
+  <text x="250" y="115" text-anchor="middle"
+        font-family="Fraunces, 'Times New Roman', serif"
+        font-style="italic"
+        font-weight="400"
+        font-size="110"
+        fill="#1B1813"
+        letter-spacing="-0.02em">Align</text>
+
+  <use href="#sparkle" x="253" y="32" width="26" height="26"/>
+  <use href="#sparkle" x="278" y="15" width="15" height="15"/>
+</svg>

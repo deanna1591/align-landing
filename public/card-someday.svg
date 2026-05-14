@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 540">
+  <title>Align someday card</title>
+  <defs>
+    <filter id="sh" x="-10%" y="-10%" width="120%" height="120%">
+      <feDropShadow dx="0" dy="12" stdDeviation="24" flood-color="#1B1813" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+  <g filter="url(#sh)">
+    <rect width="600" height="540" rx="24" fill="#FFFFFF"/>
+    <g transform="translate(50, 70)">
+      <g transform="translate(0, -16)">
+        <path d="M-16 30 L-16 22 Q-16 18 -12 18 L20 18 Q24 18 24 22 L24 30" stroke="#7CA481" stroke-width="1.5" fill="none"/>
+        <circle cx="4" cy="22" r="3" fill="#C9824A"/>
+        <path d="M-8 22 L20 22" stroke="#7CA481" stroke-width="1" fill="none"/>
+        <line x1="-16" y1="22" x2="-22" y2="14" stroke="#7CA481" stroke-width="1"/>
+        <line x1="0" y1="18" x2="0" y2="8" stroke="#7CA481" stroke-width="1"/>
+        <line x1="-8" y1="18" x2="-12" y2="10" stroke="#7CA481" stroke-width="1"/>
+        <line x1="8" y1="18" x2="12" y2="10" stroke="#7CA481" stroke-width="1"/>
+      </g>
+      <text x="40" y="18" font-family="Fraunces, serif" font-size="36" font-weight="400" fill="#1B1813">Someday</text>
+      <text x="210" y="14" font-family="Inter Tight, sans-serif" font-size="14" fill="#9A917F">12</text>
+      <text x="40" y="42" font-family="Inter Tight, sans-serif" font-size="14" fill="#9A917F" font-style="italic">to come back to when there's room</text>
+    </g>
+    <line x1="50" y1="160" x2="550" y2="160" stroke="#F2F2F2" stroke-width="0.5"/>
+    <g transform="translate(50, 200)">
+      <rect width="16" height="16" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="28" y="14" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">Finally book pottery class</text>
+      <text x="28" y="32" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">added 3 weeks ago</text>
+    </g>
+    <g transform="translate(50, 264)">
+      <rect width="16" height="16" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="28" y="14" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">Plan weekend in Sedona</text>
+      <text x="28" y="32" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">added 2 weeks ago</text>
+    </g>
+    <g transform="translate(50, 328)">
+      <rect width="16" height="16" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="28" y="14" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">Read the Murakami book</text>
+      <text x="28" y="32" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">added 5 days ago</text>
+    </g>
+    <g transform="translate(50, 392)">
+      <rect width="16" height="16" rx="3" fill="#7CA481"/>
+      <path d="M3 8 L7 12 L13 4" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="28" y="14" font-family="Inter Tight, sans-serif" font-size="15" fill="#9A917F" text-decoration="line-through">Try that ramen place</text>
+      <text x="28" y="32" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">moved to Saturday</text>
+    </g>
+    <g transform="translate(50, 456)">
+      <rect width="16" height="16" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="28" y="14" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">Learn watercolor</text>
+    </g>
+  </g>
+</svg>

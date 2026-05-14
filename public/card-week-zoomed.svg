@@ -1,0 +1,135 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 800">
+  <title>Align week zoomed card</title>
+  <defs>
+    <filter id="zoom-sh" x="-5%" y="-5%" width="110%" height="120%">
+      <feDropShadow dx="0" dy="16" stdDeviation="32" flood-color="#1B1813" flood-opacity="0.10"/>
+    </filter>
+  </defs>
+
+  <g transform="translate(80, 60)" filter="url(#zoom-sh)">
+    <rect width="1440" height="680" rx="28" fill="#FFFFFF"/>
+
+    <g transform="translate(50, 60)">
+      <circle cx="8" cy="8" r="7" fill="none" stroke="#7CA481" stroke-width="1.5"/>
+      <path d="M4 8 L7 11 L12 5" stroke="#7CA481" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="26" y="13" font-family="Inter Tight, sans-serif" font-size="14" fill="#5C5448" font-weight="500">2/5</text>
+      <rect x="64" y="6" width="60" height="4" rx="2" fill="#F2F2F2"/>
+      <rect x="64" y="6" width="24" height="4" rx="2" fill="#7CA481"/>
+    </g>
+
+    <g transform="translate(50, 110)">
+      <text font-family="Fraunces, serif" font-style="italic" font-size="38" font-weight="500" fill="#1B1813">align</text>
+      <text x="170" y="-4" font-family="Inter Tight, sans-serif" font-size="11" fill="#5C5448" letter-spacing="0.18em" font-weight="600">WEDNESDAY, MAY 13, 2026</text>
+    </g>
+
+    <g transform="translate(1280, 110)">
+      <text text-anchor="end" font-family="Inter Tight, sans-serif" font-size="11" fill="#5C5448" letter-spacing="0.18em" font-weight="600">STREAK</text>
+      <text x="32" y="-2" font-family="Fraunces, serif" font-size="22" fill="#C9824A" font-weight="500">🔥 12</text>
+    </g>
+
+    <line x1="50" y1="150" x2="1390" y2="150" stroke="#F2F2F2" stroke-width="0.5"/>
+
+    <g transform="translate(50, 200)">
+      <text font-family="Fraunces, serif" font-size="22" fill="#1B1813">Monday</text>
+      <text x="142" y="0" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 11</text>
+      <line x1="0" y1="14" x2="180" y2="14" stroke="#EAEAEA" stroke-width="0.5"/>
+      <circle cx="6" cy="40" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="44" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Team standup</text>
+      <text x="20" y="60" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">9:00 am</text>
+      <circle cx="6" cy="88" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="92" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Pilates with Mia</text>
+      <text x="20" y="108" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">11:00 am</text>
+      <rect x="0" y="128" width="14" height="14" rx="3" fill="#7CA481"/>
+      <path d="M3 134 L6 137 L11 131" stroke="white" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="20" y="139" font-family="Inter Tight, sans-serif" font-size="14" fill="#9A917F" text-decoration="line-through">Submit invoice</text>
+      <text x="0" y="180" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F" font-style="italic">+ add</text>
+    </g>
+
+    <g transform="translate(250, 200)">
+      <text font-family="Fraunces, serif" font-size="22" fill="#1B1813">Tuesday</text>
+      <text x="146" y="0" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 12</text>
+      <line x1="0" y1="14" x2="180" y2="14" stroke="#EAEAEA" stroke-width="0.5"/>
+      <circle cx="6" cy="40" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="44" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Coffee with Sam</text>
+      <text x="20" y="60" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">8:30 am</text>
+      <circle cx="6" cy="88" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="92" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Therapy</text>
+      <text x="20" y="108" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">5:00 pm</text>
+      <rect x="0" y="128" width="14" height="14" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="20" y="139" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Reply to Maya</text>
+      <text x="0" y="180" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F" font-style="italic">+ add</text>
+    </g>
+
+    <g transform="translate(440, 180)">
+      <rect x="-10" y="0" width="200" height="440" rx="12" fill="#F5F8F4" opacity="0.6"/>
+      <text x="0" y="20" font-family="Fraunces, serif" font-size="22" fill="#7CA481" font-weight="500">Wednesday</text>
+      <text x="146" y="20" font-family="Inter Tight, sans-serif" font-size="10" fill="#7CA481" letter-spacing="0.18em" font-weight="600">MAY 13</text>
+      <line x1="0" y1="34" x2="180" y2="34" stroke="#7CA481" stroke-width="1"/>
+      <circle cx="6" cy="60" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="64" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Team standup</text>
+      <text x="20" y="80" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">9:00 am</text>
+      <circle cx="6" cy="108" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="112" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Deep work block</text>
+      <text x="20" y="128" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">10:00 am</text>
+      <rect x="0" y="148" width="14" height="14" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="22" y="159" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Reply to Jamie</text>
+      <rect x="0" y="180" width="14" height="14" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="22" y="191" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Draft Q3 plan</text>
+      <rect x="0" y="212" width="14" height="14" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="22" y="223" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Call dentist</text>
+      <text x="0" y="280" font-family="Inter Tight, sans-serif" font-size="12" fill="#7CA481" font-style="italic" font-weight="500">+ add something</text>
+    </g>
+
+    <g transform="translate(645, 200)">
+      <text font-family="Fraunces, serif" font-size="22" fill="#1B1813">Thursday</text>
+      <text x="144" y="0" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 14</text>
+      <line x1="0" y1="14" x2="180" y2="14" stroke="#EAEAEA" stroke-width="0.5"/>
+      <circle cx="6" cy="40" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="44" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Pilates with Mia</text>
+      <text x="20" y="60" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">9:00 am</text>
+      <circle cx="6" cy="88" r="3" fill="#7CA481"/>
+      <text x="20" y="92" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Lunch with Lauren</text>
+      <text x="20" y="108" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">12:00 pm</text>
+      <circle cx="6" cy="136" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="140" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Board prep</text>
+      <text x="20" y="156" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">2:00 pm</text>
+      <text x="0" y="200" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F" font-style="italic">+ add</text>
+    </g>
+
+    <g transform="translate(840, 200)">
+      <text font-family="Fraunces, serif" font-size="22" fill="#1B1813">Friday</text>
+      <text x="142" y="0" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 15</text>
+      <line x1="0" y1="14" x2="180" y2="14" stroke="#EAEAEA" stroke-width="0.5"/>
+      <circle cx="6" cy="40" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="44" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Dentist appt</text>
+      <text x="20" y="60" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">10:30 am</text>
+      <circle cx="6" cy="88" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="92" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">All-hands</text>
+      <text x="20" y="108" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">3:00 pm</text>
+      <rect x="0" y="128" width="14" height="14" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+      <text x="20" y="139" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Ship feature</text>
+      <text x="0" y="180" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F" font-style="italic">+ add</text>
+    </g>
+
+    <g transform="translate(1030, 200)">
+      <text font-family="Fraunces, serif" font-size="22" fill="#1B1813">Saturday</text>
+      <text x="146" y="0" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 16</text>
+      <line x1="0" y1="14" x2="180" y2="14" stroke="#EAEAEA" stroke-width="0.5"/>
+      <circle cx="6" cy="40" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="44" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Farmers market</text>
+      <text x="20" y="60" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">8:00 am</text>
+      <circle cx="6" cy="88" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="92" font-family="Inter Tight, sans-serif" font-size="14" fill="#1B1813">Eva's swim lesson</text>
+      <text x="20" y="108" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">10:00 am</text>
+      <text x="0" y="150" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F" font-style="italic">+ add</text>
+    </g>
+
+    <g transform="translate(1220, 200)">
+      <text font-family="Fraunces, serif" font-size="22" fill="#1B1813">Sunday</text>
+      <text x="132" y="0" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 17</text>
+      <line x1="0" y1="14" x2="170" y2="14" stroke="#EAEAEA" stroke-width="0.5"/>
+      <text x="0" y="46" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F" font-style="italic">a quiet one.</text>
+      <text x="0" y="90" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F" font-style="italic">+ add</text>
+    </g>
+  </g>
+</svg>

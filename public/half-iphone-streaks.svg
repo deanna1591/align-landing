@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <title>Half iPhone streaks</title>
+  <g transform="translate(140, 60)">
+    <path d="M 56 0 L 464 0 Q 520 0 520 56 L 520 540 L 0 540 L 0 56 Q 0 0 56 0 Z" fill="#1B1B1B"/>
+    <path d="M 64 14 L 456 14 Q 506 14 506 64 L 506 540 L 14 540 L 14 64 Q 14 14 64 14 Z" fill="#FFFFFF"/>
+    <rect x="215" y="42" width="90" height="28" rx="14" fill="#1B1B1B"/>
+    <g transform="translate(60, 110)">
+      <text font-family="Inter Tight, sans-serif" font-size="14" fill="#7CA481" font-weight="500">← Back</text>
+    </g>
+    <g transform="translate(60, 170)">
+      <text font-family="Fraunces, serif" font-size="36" font-weight="400" fill="#1B1813">Your streak</text>
+      <text y="32" font-family="Inter Tight, sans-serif" font-size="14" fill="#9A917F" font-style="italic">forgiveness, built in.</text>
+    </g>
+    <g transform="translate(260, 320)">
+      <text text-anchor="middle" font-family="Fraunces, serif" font-size="96" font-weight="500" fill="#C9824A">12</text>
+      <text y="34" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="13" fill="#5C5448" letter-spacing="0.18em" font-weight="600">DAYS IN A ROW</text>
+    </g>
+    <g transform="translate(260, 430)">
+      <g transform="translate(-120, 0)"><circle r="7" fill="#7CA481"/><text y="24" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F">MON</text></g>
+      <g transform="translate(-80, 0)"><circle r="7" fill="#7CA481"/><text y="24" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F">TUE</text></g>
+      <g transform="translate(-40, 0)"><circle r="7" fill="#7CA481"/><text y="24" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F">WED</text></g>
+      <g transform="translate(0, 0)"><circle r="7" fill="none" stroke="#7CA481" stroke-width="1.5" stroke-dasharray="2 2"/><text y="24" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F">THU</text></g>
+      <g transform="translate(40, 0)"><circle r="7" fill="#7CA481"/><text y="24" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F">FRI</text></g>
+      <g transform="translate(80, 0)"><circle r="7" fill="#7CA481"/><text y="24" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F">SAT</text></g>
+      <g transform="translate(120, 0)"><circle r="7" fill="#7CA481"/><text y="24" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F">SUN</text></g>
+    </g>
+    <text x="260" y="500" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F" font-style="italic">thursday off · streak survived</text>
+  </g>
+</svg>

@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1400 900">
+  <defs>
+    <filter id="panel-shadow" x="-20%" y="-20%" width="140%" height="140%">
+      <feDropShadow dx="0" dy="8" stdDeviation="16" flood-color="#1B1813" flood-opacity="0.08"/>
+    </filter>
+  </defs>
+  <rect width="1400" height="900" fill="#FAFAFA"/>
+  <g transform="translate(60, 130)" filter="url(#panel-shadow)">
+    <rect width="560" height="640" rx="12" fill="#FFFFFF"/>
+    <g transform="translate(28, 32)">
+      <circle cx="14" cy="14" r="12" fill="#FFFFFF" stroke="#DADCE0" stroke-width="0.5"/>
+      <path d="M21 14 C21 17.5 18.5 20 14 20 C9.5 20 7 17.5 7 14 C7 10.5 9.5 8 14 8 C16 8 17.5 8.5 19 9.8 L17.3 11.5 C16.5 10.7 15.5 10.5 14 10.5 C12 10.5 10.5 12 10.5 14 C10.5 16 12 17.5 14 17.5 C15.5 17.5 16.5 16.5 17 15.5 L14 15.5 L14 13.5 L21 13.5 Z" fill="#4285F4"/>
+      <text x="36" y="20" font-family="Inter Tight, sans-serif" font-size="14" font-weight="500" fill="#3C4043">Calendar</text>
+    </g>
+    <text x="520" y="48" text-anchor="end" font-family="Inter Tight, sans-serif" font-size="13" fill="#5F6368">May 11 – 17, 2026</text>
+    <line x1="0" y1="80" x2="560" y2="80" stroke="#E8EAED" stroke-width="0.5"/>
+    <g transform="translate(28, 100)">
+      <text font-family="Inter Tight, sans-serif" font-size="10" fill="#70757A" font-weight="500" letter-spacing="0.05em">MON 11</text>
+      <text y="14" font-family="Inter Tight, sans-serif" font-size="10" fill="#70757A" font-weight="500" letter-spacing="0.05em">TUE 12</text>
+      <text y="28" font-family="Inter Tight, sans-serif" font-size="10" fill="#1A73E8" font-weight="600" letter-spacing="0.05em">WED 13</text>
+      <text y="42" font-family="Inter Tight, sans-serif" font-size="10" fill="#70757A" font-weight="500" letter-spacing="0.05em">THU 14</text>
+      <text y="56" font-family="Inter Tight, sans-serif" font-size="10" fill="#70757A" font-weight="500" letter-spacing="0.05em">FRI 15</text>
+    </g>
+    <g transform="translate(140, 100)">
+      <text font-family="Inter Tight, sans-serif" font-size="10" fill="#70757A">9:00 AM</text>
+      <text y="14" font-family="Inter Tight, sans-serif" font-size="10" fill="#70757A">8:30 AM</text>
+      <text y="28" font-family="Inter Tight, sans-serif" font-size="10" fill="#70757A">9:00 AM</text>
+      <text y="42" font-family="Inter Tight, sans-serif" font-size="10" fill="#70757A">9:00 AM</text>
+      <text y="56" font-family="Inter Tight, sans-serif" font-size="10" fill="#70757A">10:30 AM</text>
+    </g>
+    <g transform="translate(220, 180)">
+      <rect width="300" height="60" rx="6" fill="#E8F0FE" stroke="#1A73E8" stroke-width="0.5"/>
+      <rect width="3" height="60" fill="#1A73E8"/>
+      <text x="14" y="22" font-family="Inter Tight, sans-serif" font-size="13" font-weight="500" fill="#1A73E8">Team standup</text>
+      <text x="14" y="40" font-family="Inter Tight, sans-serif" font-size="12" fill="#3C4043">Wed, 9:00 – 9:30 AM</text>
+      <text x="14" y="54" font-family="Inter Tight, sans-serif" font-size="11" fill="#70757A">@ work calendar</text>
+    </g>
+    <g transform="translate(220, 260)">
+      <rect width="300" height="60" rx="6" fill="#FCE8E6" stroke="#D93025" stroke-width="0.5"/>
+      <rect width="3" height="60" fill="#D93025"/>
+      <text x="14" y="22" font-family="Inter Tight, sans-serif" font-size="13" font-weight="500" fill="#D93025">Design review</text>
+      <text x="14" y="40" font-family="Inter Tight, sans-serif" font-size="12" fill="#3C4043">Wed, 11:00 AM – 12:00 PM</text>
+      <text x="14" y="54" font-family="Inter Tight, sans-serif" font-size="11" fill="#70757A">@ work calendar</text>
+    </g>
+    <g transform="translate(220, 340)">
+      <rect width="300" height="60" rx="6" fill="#E6F4EA" stroke="#188038" stroke-width="0.5"/>
+      <rect width="3" height="60" fill="#188038"/>
+      <text x="14" y="22" font-family="Inter Tight, sans-serif" font-size="13" font-weight="500" fill="#188038">Picking up Eva</text>
+      <text x="14" y="40" font-family="Inter Tight, sans-serif" font-size="12" fill="#3C4043">Wed, 3:30 – 4:00 PM</text>
+      <text x="14" y="54" font-family="Inter Tight, sans-serif" font-size="11" fill="#70757A">@ personal calendar</text>
+    </g>
+    <g transform="translate(220, 420)">
+      <rect width="300" height="60" rx="6" fill="#E6F4EA" stroke="#188038" stroke-width="0.5"/>
+      <rect width="3" height="60" fill="#188038"/>
+      <text x="14" y="22" font-family="Inter Tight, sans-serif" font-size="13" font-weight="500" fill="#188038">Pilates with Mia</text>
+      <text x="14" y="40" font-family="Inter Tight, sans-serif" font-size="12" fill="#3C4043">Thu, 9:00 – 10:00 AM</text>
+      <text x="14" y="54" font-family="Inter Tight, sans-serif" font-size="11" fill="#70757A">@ personal calendar</text>
+    </g>
+    <text x="280" y="600" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="11" fill="#9AA0A6" letter-spacing="0.05em">YOUR GOOGLE CALENDAR</text>
+  </g>
+  <g transform="translate(720, 430)">
+    <path d="M0 0 L40 -10 L40 -4 L80 -4 L80 4 L40 4 L40 10 Z" fill="#7CA481"/>
+    <text x="40" y="-24" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="13" font-weight="500" fill="#1B1813">attached</text>
+    <text x="40" y="40" text-anchor="middle" font-family="Fraunces, serif" font-style="italic" font-size="13" fill="#5C5448">to your week</text>
+  </g>
+  <g transform="translate(820, 130)" filter="url(#panel-shadow)">
+    <rect width="520" height="640" rx="12" fill="#FFFFFF"/>
+    <g transform="translate(28, 36)">
+      <text font-family="Fraunces, serif" font-style="italic" font-size="22" font-weight="500" fill="#1B1813">align</text>
+      <text x="78" y="-2" font-family="Inter Tight, sans-serif" font-size="8" fill="#5C5448" letter-spacing="0.18em" font-weight="600">WED, MAY 13, 2026</text>
+    </g>
+    <g transform="translate(280, 32)">
+      <rect width="218" height="28" rx="14" fill="#F5F8F4"/>
+      <circle cx="18" cy="14" r="4" fill="#7CA481"/>
+      <text x="28" y="18" font-family="Inter Tight, sans-serif" font-size="11" fill="#1B1813" font-weight="500">Google Calendar connected</text>
+    </g>
+    <line x1="28" y1="84" x2="492" y2="84" stroke="#EAEAEA" stroke-width="0.5"/>
+    <g transform="translate(28, 110)">
+      <text font-family="Fraunces, serif" font-size="20" fill="#1B1813">Wednesday</text>
+      <text x="280" y="-2" font-family="Inter Tight, sans-serif" font-size="9" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 13</text>
+      <line x1="0" y1="10" x2="464" y2="10" stroke="#7CA481" stroke-width="1"/>
+      <g transform="translate(0, 30)">
+        <circle cx="6" cy="6" r="3" fill="#5C7A99"/>
+        <text x="20" y="10" font-family="Inter Tight, sans-serif" font-size="13" font-weight="500" fill="#1B1813">Team standup</text>
+        <text x="20" y="26" font-family="Inter Tight, sans-serif" font-size="11" fill="#9A917F">9:00 am · from Google</text>
+      </g>
+      <g transform="translate(0, 70)">
+        <circle cx="6" cy="6" r="3" fill="#5C7A99"/>
+        <text x="20" y="10" font-family="Inter Tight, sans-serif" font-size="13" font-weight="500" fill="#1B1813">Design review</text>
+        <text x="20" y="26" font-family="Inter Tight, sans-serif" font-size="11" fill="#9A917F">11:00 am · from Google</text>
+      </g>
+      <g transform="translate(0, 110)">
+        <circle cx="6" cy="6" r="3" fill="#7CA481"/>
+        <text x="20" y="10" font-family="Inter Tight, sans-serif" font-size="13" font-weight="500" fill="#1B1813">Picking up Eva</text>
+        <text x="20" y="26" font-family="Inter Tight, sans-serif" font-size="11" fill="#9A917F">3:30 pm · from Google</text>
+      </g>
+      <line x1="0" y1="158" x2="464" y2="158" stroke="#F2F2F2" stroke-width="0.5" stroke-dasharray="3 3"/>
+      <text x="0" y="178" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F" letter-spacing="0.15em" font-weight="600">YOUR TASKS</text>
+      <g transform="translate(0, 196)">
+        <rect width="14" height="14" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+        <text x="22" y="12" font-family="Inter Tight, sans-serif" font-size="13" fill="#1B1813">Draft Q3 plan</text>
+      </g>
+      <g transform="translate(0, 224)">
+        <rect width="14" height="14" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+        <text x="22" y="12" font-family="Inter Tight, sans-serif" font-size="13" fill="#1B1813">Reply to Jamie's email</text>
+      </g>
+      <g transform="translate(0, 252)">
+        <rect width="14" height="14" rx="3" fill="none" stroke="#9A917F" stroke-width="1.2"/>
+        <text x="22" y="12" font-family="Inter Tight, sans-serif" font-size="13" fill="#1B1813">Call dentist about Friday</text>
+      </g>
+    </g>
+    <text x="260" y="600" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="11" fill="#9A917F" letter-spacing="0.05em">YOUR ALIGN WEEK</text>
+  </g>
+</svg>

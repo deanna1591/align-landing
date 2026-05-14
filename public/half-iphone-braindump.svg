@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <title>Half iPhone brain dump</title>
+  <desc>Top portion of iPhone visible, cropped at bottom edge, showing brain dump screen.</desc>
+
+  <g transform="translate(140, 60)">
+    <path d="M 56 0 L 464 0 Q 520 0 520 56 L 520 540 L 0 540 L 0 56 Q 0 0 56 0 Z" fill="#1B1B1B"/>
+    <path d="M 64 14 L 456 14 Q 506 14 506 64 L 506 540 L 14 540 L 14 64 Q 14 14 64 14 Z" fill="#FFFFFF"/>
+    <rect x="215" y="42" width="90" height="28" rx="14" fill="#1B1B1B"/>
+
+    <g transform="translate(60, 110)">
+      <text font-family="Inter Tight, sans-serif" font-size="14" fill="#7CA481" font-weight="500">← Back</text>
+    </g>
+
+    <g transform="translate(60, 170)">
+      <text font-family="Fraunces, serif" font-size="44" font-weight="400" fill="#1B1813">Brain dump</text>
+      <text y="32" font-family="Inter Tight, sans-serif" font-size="15" fill="#9A917F" font-style="italic">empty your head. sort later.</text>
+    </g>
+
+    <g transform="translate(60, 270)">
+      <rect width="390" height="56" rx="14" fill="#FAFAFA" stroke="#EAEAEA" stroke-width="0.5"/>
+      <text x="18" y="35" font-family="Inter Tight, sans-serif" font-size="17" fill="#7CA481" font-weight="500">+</text>
+      <text x="38" y="36" font-family="Inter Tight, sans-serif" font-size="15" fill="#9A917F" font-style="italic">capture anything...</text>
+      <g transform="translate(348, 20)">
+        <circle cx="10" cy="10" r="11" fill="none" stroke="#5C5448" stroke-width="0.8"/>
+        <rect x="8" y="6" width="4" height="6" rx="2" fill="none" stroke="#5C5448" stroke-width="0.8"/>
+        <line x1="6" y1="13" x2="14" y2="13" stroke="#5C5448" stroke-width="0.6"/>
+      </g>
+    </g>
+
+    <text x="60" y="386" font-family="Inter Tight, sans-serif" font-size="11" fill="#9A917F" letter-spacing="0.18em" font-weight="600">CAPTURED · 7 ITEMS</text>
+
+    <g transform="translate(60, 416)">
+      <circle cx="6" cy="8" r="4" fill="#7CA481"/>
+      <text x="22" y="12" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">call mom about Sunday</text>
+      <text x="22" y="30" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">2 min ago</text>
+    </g>
+    <line x1="60" y1="466" x2="450" y2="466" stroke="#F2F2F2" stroke-width="0.5"/>
+
+    <g transform="translate(60, 486)">
+      <circle cx="6" cy="8" r="4" fill="#7CA481"/>
+      <text x="22" y="12" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">try ramen place on Mill</text>
+      <text x="22" y="30" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">today, 9:14 am</text>
+    </g>
+  </g>
+</svg>

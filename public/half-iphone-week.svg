@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <title>Half iPhone week view</title>
+
+  <g transform="translate(140, 60)">
+    <path d="M 56 0 L 464 0 Q 520 0 520 56 L 520 540 L 0 540 L 0 56 Q 0 0 56 0 Z" fill="#1B1B1B"/>
+    <path d="M 64 14 L 456 14 Q 506 14 506 64 L 506 540 L 14 540 L 14 64 Q 14 14 64 14 Z" fill="#FFFFFF"/>
+    <rect x="215" y="42" width="90" height="28" rx="14" fill="#1B1B1B"/>
+
+    <g transform="translate(60, 110)">
+      <circle cx="6" cy="6" r="5" fill="none" stroke="#7CA481" stroke-width="1.5"/>
+      <path d="M3 6 L5 8 L9 4" stroke="#7CA481" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="18" y="10" font-family="Inter Tight, sans-serif" font-size="12" fill="#5C5448" font-weight="500">2/5</text>
+      <rect x="50" y="6" width="50" height="3" rx="1.5" fill="#F2F2F2"/>
+      <rect x="50" y="6" width="20" height="3" rx="1.5" fill="#7CA481"/>
+      <text x="380" y="10" font-family="Inter Tight, sans-serif" font-size="12" fill="#C9824A" font-weight="500">🔥 12</text>
+    </g>
+
+    <g transform="translate(60, 160)">
+      <text font-family="Fraunces, serif" font-style="italic" font-size="32" font-weight="500" fill="#1B1813">align</text>
+      <text x="120" y="-2" font-family="Inter Tight, sans-serif" font-size="10" fill="#5C5448" letter-spacing="0.18em" font-weight="600">WED, MAY 13, 2026</text>
+    </g>
+
+    <g transform="translate(60, 220)">
+      <rect width="140" height="38" rx="9" fill="#FAFAFA" stroke="#EAEAEA" stroke-width="0.5"/>
+      <rect x="3" y="3" width="68" height="32" rx="7" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="0.5"/>
+      <text x="37" y="24" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="13" font-weight="500" fill="#1B1813">Week</text>
+      <text x="107" y="24" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="13" fill="#5C5448">Lists</text>
+    </g>
+
+    <g transform="translate(60, 300)">
+      <text font-family="Fraunces, serif" font-size="24" fill="#1B1813">Monday</text>
+      <text x="350" y="-2" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 11</text>
+      <line x1="0" y1="12" x2="400" y2="12" stroke="#EAEAEA" stroke-width="0.5"/>
+      <circle cx="6" cy="40" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="44" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">Team standup</text>
+      <text x="20" y="60" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">9:00 am</text>
+      <circle cx="6" cy="90" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="94" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">Pilates with Mia</text>
+      <text x="20" y="110" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">11:00 am</text>
+    </g>
+
+    <g transform="translate(60, 470)">
+      <text font-family="Fraunces, serif" font-size="24" fill="#1B1813">Tuesday</text>
+      <text x="350" y="-2" font-family="Inter Tight, sans-serif" font-size="10" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 12</text>
+      <line x1="0" y1="12" x2="400" y2="12" stroke="#EAEAEA" stroke-width="0.5"/>
+      <circle cx="6" cy="40" r="3" fill="#9A917F" opacity="0.5"/>
+      <text x="20" y="44" font-family="Inter Tight, sans-serif" font-size="15" fill="#1B1813">Coffee with Sam</text>
+      <text x="20" y="60" font-family="Inter Tight, sans-serif" font-size="12" fill="#9A917F">8:30 am</text>
+    </g>
+  </g>
+</svg>

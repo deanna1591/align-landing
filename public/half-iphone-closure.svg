@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <title>Half iPhone daily closure</title>
+
+  <g transform="translate(140, 60)">
+    <path d="M 56 0 L 464 0 Q 520 0 520 56 L 520 540 L 0 540 L 0 56 Q 0 0 56 0 Z" fill="#1B1B1B"/>
+    <path d="M 64 14 L 456 14 Q 506 14 506 64 L 506 540 L 14 540 L 14 64 Q 14 14 64 14 Z" fill="#FFFFFF"/>
+    <rect x="215" y="42" width="90" height="28" rx="14" fill="#1B1B1B"/>
+
+    <g transform="translate(260, 120)">
+      <g transform="translate(-18, 0)">
+        <path d="M-16 30 L-16 22 Q-16 18 -12 18 L20 18 Q24 18 24 22 L24 30" stroke="#7CA481" stroke-width="1.5" fill="none"/>
+        <circle cx="4" cy="22" r="3" fill="#C9824A"/>
+        <path d="M-8 22 L20 22" stroke="#7CA481" stroke-width="1" fill="none"/>
+        <line x1="-16" y1="22" x2="-22" y2="14" stroke="#7CA481" stroke-width="1"/>
+        <line x1="0" y1="18" x2="0" y2="8" stroke="#7CA481" stroke-width="1"/>
+        <line x1="-8" y1="18" x2="-12" y2="10" stroke="#7CA481" stroke-width="1"/>
+        <line x1="8" y1="18" x2="12" y2="10" stroke="#7CA481" stroke-width="1"/>
+        <line x1="20" y1="22" x2="26" y2="14" stroke="#7CA481" stroke-width="1"/>
+      </g>
+    </g>
+
+    <text x="260" y="200" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="11" fill="#5C5448" letter-spacing="0.22em" font-weight="600">END OF DAY</text>
+
+    <text x="260" y="260" text-anchor="middle" font-family="Fraunces, serif" font-size="32" font-weight="400" fill="#1B1813">A quieter day.</text>
+    <text x="260" y="298" text-anchor="middle" font-family="Fraunces, serif" font-size="32" font-weight="400" fill="#1B1813">That counts too.</text>
+
+    <g transform="translate(120, 380)">
+      <text text-anchor="middle" font-family="Fraunces, serif" font-size="42" font-weight="500" fill="#1B1813">2</text>
+      <text y="28" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#5C5448" letter-spacing="0.18em" font-weight="600">COMPLETED</text>
+    </g>
+    <g transform="translate(260, 380)">
+      <text text-anchor="middle" font-family="Fraunces, serif" font-size="42" font-weight="500" fill="#C9824A">12</text>
+      <text y="28" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#5C5448" letter-spacing="0.18em" font-weight="600">STREAK</text>
+    </g>
+    <g transform="translate(400, 380)">
+      <text text-anchor="middle" font-family="Fraunces, serif" font-size="42" font-weight="500" fill="#1B1813">3</text>
+      <text y="28" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#5C5448" letter-spacing="0.18em" font-weight="600">IN MOTION</text>
+    </g>
+
+    <g transform="translate(180, 470)">
+      <rect width="160" height="42" rx="21" fill="#7CA481"/>
+      <text x="80" y="27" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="14" font-weight="500" fill="#FFFFFF">Close the day</text>
+    </g>
+  </g>
+</svg>

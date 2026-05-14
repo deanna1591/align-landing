@@ -1,0 +1,110 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 660">
+  <title>Align week view on iPhone</title>
+  <defs>
+    <filter id="phone-shadow" x="-20%" y="-10%" width="140%" height="120%">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#1B1813" flood-opacity="0.15"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#phone-shadow)">
+    <!-- Phone outer frame -->
+    <rect x="6" y="6" width="308" height="648" rx="48" fill="#1B1B1B"/>
+    <!-- Phone bezel -->
+    <rect x="10" y="10" width="300" height="640" rx="44" fill="#0A0A0A"/>
+    <!-- Screen -->
+    <rect x="14" y="14" width="292" height="632" rx="40" fill="#FFFFFF"/>
+    <!-- Dynamic island -->
+    <rect x="130" y="28" width="60" height="22" rx="11" fill="#1B1B1B"/>
+  </g>
+
+  <!-- Status bar -->
+  <g transform="translate(0, 0)">
+    <text x="34" y="34" font-family="Inter Tight, sans-serif" font-size="10" font-weight="600" fill="#1B1813">9:41</text>
+    <g transform="translate(254, 24)" fill="#1B1813">
+      <rect x="0" y="3" width="2" height="6" rx="0.5"/>
+      <rect x="3" y="2" width="2" height="7" rx="0.5"/>
+      <rect x="6" y="0" width="2" height="9" rx="0.5"/>
+      <rect x="9" y="-1" width="2" height="10" rx="0.5"/>
+    </g>
+    <g transform="translate(270, 22)" fill="#1B1813">
+      <path d="M0 7 Q 3 4 6 4 Q 9 4 12 7" fill="none" stroke="#1B1813" stroke-width="1.2"/>
+      <path d="M2 8 Q 4 6 6 6 Q 8 6 10 8" fill="none" stroke="#1B1813" stroke-width="1.2"/>
+      <circle cx="6" cy="9" r="1" fill="#1B1813"/>
+    </g>
+    <g transform="translate(285, 24)">
+      <rect x="0" y="0" width="20" height="10" rx="2.5" fill="none" stroke="#1B1813" stroke-width="0.8"/>
+      <rect x="20" y="3" width="2" height="4" rx="1" fill="#1B1813"/>
+      <rect x="2" y="2" width="14" height="6" rx="1" fill="#1B1813"/>
+    </g>
+  </g>
+
+  <!-- Progress bar and streak -->
+  <g transform="translate(34, 76)">
+    <circle cx="6" cy="6" r="5" fill="none" stroke="#7CA481" stroke-width="1.2"/>
+    <path d="M3 6 L5 8 L9 4" stroke="#7CA481" stroke-width="1.2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="17" y="10" font-family="Inter Tight, sans-serif" font-size="11" fill="#5C5448" font-weight="500">2/5</text>
+    <rect x="46" y="5" width="60" height="3" rx="1.5" fill="#F2F2F2"/>
+    <rect x="46" y="5" width="24" height="3" rx="1.5" fill="#7CA481"/>
+    <text x="226" y="10" font-family="Inter Tight, sans-serif" font-size="11" fill="#C9824A" font-weight="500">🔥 12</text>
+  </g>
+
+  <!-- Align logo + date -->
+  <g transform="translate(34, 120)">
+    <text font-family="Fraunces, serif" font-style="italic" font-size="26" font-weight="500" fill="#1B1813">align</text>
+    <text x="68" y="-2" font-family="Inter Tight, sans-serif" font-size="8" fill="#5C5448" letter-spacing="0.18em" font-weight="600">WED, MAY 13, 2026</text>
+  </g>
+
+  <!-- Tab switcher -->
+  <g transform="translate(34, 154)">
+    <rect width="100" height="28" rx="7" fill="#FAFAFA" stroke="#EAEAEA" stroke-width="0.4"/>
+    <rect x="2" y="2" width="48" height="24" rx="6" fill="#FFFFFF" stroke="#EAEAEA" stroke-width="0.4"/>
+    <text x="26" y="18" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" font-weight="500" fill="#1B1813">Week</text>
+    <text x="76" y="18" text-anchor="middle" font-family="Inter Tight, sans-serif" font-size="10" fill="#5C5448">Lists</text>
+  </g>
+
+  <!-- Day: Monday -->
+  <g transform="translate(34, 214)">
+    <text font-family="Fraunces, serif" font-size="18" fill="#1B1813">Monday</text>
+    <text x="200" y="-2" font-family="Inter Tight, sans-serif" font-size="8" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 11</text>
+    <line x1="0" y1="10" x2="252" y2="10" stroke="#EAEAEA" stroke-width="0.4"/>
+    <circle cx="5" cy="28" r="2.5" fill="#9A917F" opacity="0.5"/>
+    <text x="14" y="32" font-family="Inter Tight, sans-serif" font-size="11" fill="#1B1813">Team standup</text>
+    <text x="14" y="46" font-family="Inter Tight, sans-serif" font-size="9" fill="#9A917F">9:00 am</text>
+    <rect x="0" y="60" width="11" height="11" rx="2" fill="#7CA481"/>
+    <path d="M2.5 65.5 L5 68 L8.5 63" stroke="white" stroke-width="1.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="16" y="69" font-family="Inter Tight, sans-serif" font-size="11" fill="#9A917F" text-decoration="line-through">Submit invoice</text>
+  </g>
+
+  <!-- Day: Tuesday -->
+  <g transform="translate(34, 320)">
+    <text font-family="Fraunces, serif" font-size="18" fill="#1B1813">Tuesday</text>
+    <text x="200" y="-2" font-family="Inter Tight, sans-serif" font-size="8" fill="#9A917F" letter-spacing="0.18em" font-weight="600">MAY 12</text>
+    <line x1="0" y1="10" x2="252" y2="10" stroke="#EAEAEA" stroke-width="0.4"/>
+    <circle cx="5" cy="28" r="2.5" fill="#9A917F" opacity="0.5"/>
+    <text x="14" y="32" font-family="Inter Tight, sans-serif" font-size="11" fill="#1B1813">Coffee with Sam</text>
+    <text x="14" y="46" font-family="Inter Tight, sans-serif" font-size="9" fill="#9A917F">8:30 am</text>
+  </g>
+
+  <!-- Day: Wednesday (highlighted = today) -->
+  <g transform="translate(28, 390)">
+    <rect width="264" height="178" rx="10" fill="#F5F8F4" opacity="0.7"/>
+    <g transform="translate(6, 18)">
+      <text font-family="Fraunces, serif" font-size="18" font-weight="500" fill="#7CA481">Wednesday</text>
+      <text x="200" y="-2" font-family="Inter Tight, sans-serif" font-size="8" fill="#7CA481" letter-spacing="0.18em" font-weight="600">MAY 13</text>
+      <line x1="0" y1="10" x2="252" y2="10" stroke="#7CA481" stroke-width="0.6"/>
+      <circle cx="5" cy="28" r="2.5" fill="#9A917F" opacity="0.5"/>
+      <text x="14" y="32" font-family="Inter Tight, sans-serif" font-size="11" fill="#1B1813">Team standup</text>
+      <text x="14" y="46" font-family="Inter Tight, sans-serif" font-size="9" fill="#9A917F">9:00 am</text>
+      <rect x="0" y="60" width="11" height="11" rx="2" fill="none" stroke="#9A917F" stroke-width="1"/>
+      <text x="16" y="69" font-family="Inter Tight, sans-serif" font-size="11" fill="#1B1813">Reply to Jamie</text>
+      <rect x="0" y="80" width="11" height="11" rx="2" fill="none" stroke="#9A917F" stroke-width="1"/>
+      <text x="16" y="89" font-family="Inter Tight, sans-serif" font-size="11" fill="#1B1813">Draft Q3 plan</text>
+      <rect x="0" y="100" width="11" height="11" rx="2" fill="none" stroke="#9A917F" stroke-width="1"/>
+      <text x="16" y="109" font-family="Inter Tight, sans-serif" font-size="11" fill="#1B1813">Call dentist</text>
+      <text x="0" y="138" font-family="Inter Tight, sans-serif" font-size="9" fill="#7CA481" font-style="italic" font-weight="500">+ add something</text>
+    </g>
+  </g>
+
+  <!-- Home indicator -->
+  <rect x="120" y="624" width="80" height="4" rx="2" fill="#1B1813" opacity="0.3"/>
+</svg>
