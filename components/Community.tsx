@@ -37,8 +37,8 @@ const testimonials = [
 
 const platformBg: Record<string, string> = {
   instagram: 'from-[#F9D5BB] via-[#E89BC8] to-[#A776E8]',
-  'app-store': 'from-[#A8C5AB] via-[#7CA481] to-[#3C5B47]',
-  twitter: 'from-[#E8EFE8] via-[#DCEAD9] to-[#A8C5AB]',
+  'app-store': 'from-[#FFB3DE] via-[#FF5FB0] to-[#9B5CFF]',
+  twitter: 'from-[#E8EFE8] via-[#FFE6F4] to-[#FFB3DE]',
 }
 
 export default function Community() {

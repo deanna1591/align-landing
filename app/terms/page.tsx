@@ -77,7 +77,7 @@ export default function TermsPage() {
           </Section>
 
           <Section title="12. Governing law">
-            These terms are governed by the laws of [YOUR STATE/COUNTRY].
+            These terms are governed by the laws of the State of Arizona, USA.
           </Section>
 
           <Section title="13. Contact">

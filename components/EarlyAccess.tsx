@@ -41,7 +41,7 @@ export default function EarlyAccess() {
         className="absolute inset-0 pointer-events-none opacity-40"
         style={{
           background:
-            'radial-gradient(ellipse 80% 60% at 50% 100%, rgba(124, 164, 129, 0.5), transparent 60%)',
+            'radial-gradient(ellipse 80% 60% at 50% 100%, rgba(255, 95, 176, 0.5), transparent 60%)',
         }}
         aria-hidden="true"
       />

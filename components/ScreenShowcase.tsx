@@ -169,7 +169,7 @@ export default function ScreenShowcase() {
                   cy="64"
                   r="60"
                   fill="none"
-                  stroke="#7CA481"
+                  stroke="#FF5FB0"
                   strokeWidth="3"
                   strokeDasharray="377"
                   strokeDashoffset="140"
@@ -237,14 +237,14 @@ export default function ScreenShowcase() {
             </div>
             <div className="space-y-3">
               <div className="flex items-start gap-2.5">
-                <div className="w-1.5 h-1.5 rounded-full bg-[#5C7A99] mt-2 shrink-0" />
+                <div className="w-1.5 h-1.5 rounded-full bg-[#3FB8DE] mt-2 shrink-0" />
                 <div>
                   <p className="text-sm font-medium text-ink">Team standup</p>
                   <p className="text-xs text-soft">9:00 am · from Google</p>
                 </div>
               </div>
               <div className="flex items-start gap-2.5">
-                <div className="w-1.5 h-1.5 rounded-full bg-[#5C7A99] mt-2 shrink-0" />
+                <div className="w-1.5 h-1.5 rounded-full bg-[#3FB8DE] mt-2 shrink-0" />
                 <div>
                   <p className="text-sm font-medium text-ink">Design review</p>
                   <p className="text-xs text-soft">11:00 am · from Google</p>
@@ -276,9 +276,9 @@ export default function ScreenShowcase() {
           </p>
           <div className="mt-auto bg-sage-tint/40 rounded-2xl p-8 text-center">
             <svg viewBox="0 0 60 40" className="w-12 h-8 mx-auto mb-4">
-              <path d="M2 32 L2 24 Q2 20 6 20 L40 20 Q44 20 44 24 L44 32" stroke="#7CA481" strokeWidth="1.5" fill="none"/>
-              <circle cx="22" cy="24" r="3" fill="#C9824A"/>
-              <path d="M12 24 L40 24" stroke="#7CA481" strokeWidth="1" fill="none"/>
+              <path d="M2 32 L2 24 Q2 20 6 20 L40 20 Q44 20 44 24 L44 32" stroke="#FF5FB0" strokeWidth="1.5" fill="none"/>
+              <circle cx="22" cy="24" r="3" fill="#9B5CFF"/>
+              <path d="M12 24 L40 24" stroke="#FF5FB0" strokeWidth="1" fill="none"/>
             </svg>
             <p className="font-serif text-xl md:text-2xl text-ink mb-1">A quieter day.</p>
             <p className="font-serif italic text-xl md:text-2xl text-sage">That counts too.</p>

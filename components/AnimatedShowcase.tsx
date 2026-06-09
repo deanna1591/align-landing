@@ -138,7 +138,7 @@ function FloatingChip({
       }}
     >
       <div
-        className={`${colors.bg} ${colors.ring} rounded-2xl shadow-[0_8px_28px_rgba(27,24,19,0.10)] px-4 py-3 flex items-center gap-3 min-w-[200px]`}
+        className={`${colors.bg} ${colors.ring} rounded-2xl shadow-[0_8px_28px_rgba(91, 62, 142,0.10)] px-4 py-3 flex items-center gap-3 min-w-[200px]`}
       >
         <div
           className={`w-8 h-8 rounded-full ${colors.iconBg} flex items-center justify-center text-sm ${colors.iconColor} shrink-0`}
@@ -188,7 +188,7 @@ function MobileFloater({
         repeat: Infinity,
       }}
     >
-      <div className={`${toneClass} ring-1 rounded-xl shadow-[0_6px_20px_rgba(27,24,19,0.10)] px-3 py-2 flex items-center gap-2`}>
+      <div className={`${toneClass} ring-1 rounded-xl shadow-[0_6px_20px_rgba(91, 62, 142,0.10)] px-3 py-2 flex items-center gap-2`}>
         <div className={`w-6 h-6 rounded-full ${iconBg} flex items-center justify-center text-xs shrink-0`}>
           {floater.icon}
         </div>
@@ -206,7 +206,7 @@ export default function AnimatedShowcase() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            'radial-gradient(ellipse 70% 50% at 50% 50%, rgba(124, 164, 129, 0.18), transparent 70%)',
+            'radial-gradient(ellipse 70% 50% at 50% 50%, rgba(255, 95, 176, 0.18), transparent 70%)',
         }}
         aria-hidden="true"
       />

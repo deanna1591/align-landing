@@ -1,35 +1,29 @@
 export default function Logo({ className = 'h-6 w-auto' }: { className?: string }) {
   return (
-    <svg
+    <span
       className={className}
-      viewBox="0 0 200 60"
-      xmlns="http://www.w3.org/2000/svg"
+      style={{ display: 'inline-flex', alignItems: 'center', gap: 7 }}
       aria-label="Align"
     >
-      <text
-        x="0"
-        y="44"
-        fontFamily="Fraunces, Georgia, serif"
-        fontStyle="italic"
-        fontSize="44"
-        fontWeight="500"
-        fill="#1B1813"
+      <span
+        style={{
+          fontFamily: "'Press Start 2P', monospace",
+          fontSize: '0.92rem',
+          color: '#4A2E7A',
+          letterSpacing: '0.02em',
+          lineHeight: 1,
+        }}
       >
-        Align
-      </text>
-      <g transform="translate(72, 16)">
-        <path
-          d="M0 -4 L1.2 -1.2 L4 0 L1.2 1.2 L0 4 L-1.2 1.2 L-4 0 L-1.2 -1.2 Z"
-          fill="#7CA481"
-        />
-      </g>
-      <g transform="translate(82, 8)">
-        <path
-          d="M0 -2 L0.6 -0.6 L2 0 L0.6 0.6 L0 2 L-0.6 0.6 L-2 0 L-0.6 -0.6 Z"
-          fill="#7CA481"
-          opacity="0.7"
-        />
-      </g>
-    </svg>
+        align
+      </span>
+      <svg viewBox="0 0 7 6" width="14" height="12" shapeRendering="crispEdges" aria-hidden="true">
+        <rect x="1" y="0" width="2" height="1" fill="#FF5FB0" />
+        <rect x="4" y="0" width="2" height="1" fill="#FF5FB0" />
+        <rect x="0" y="1" width="7" height="2" fill="#FF5FB0" />
+        <rect x="1" y="3" width="5" height="1" fill="#FF5FB0" />
+        <rect x="2" y="4" width="3" height="1" fill="#FF5FB0" />
+        <rect x="3" y="5" width="1" height="1" fill="#FF5FB0" />
+      </svg>
+    </span>
   )
 }

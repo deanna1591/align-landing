@@ -4,16 +4,24 @@ export default function SiteFooter() {
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
         {/* Brand reveal */}
         <div className="text-center py-12 md:py-20 mb-16 border-b border-hairline/40">
-          <div className="flex justify-center mb-8">
-            <img src="/align-icon.svg" alt="Align" className="w-24 h-24 md:w-32 md:h-32" />
+          <div className="flex justify-center gap-3 mb-7" aria-hidden="true">
+            {['#FF5FB0', '#9B5CFF', '#3FB8DE'].map((c) => (
+              <svg key={c} viewBox="0 0 7 6" width="26" height="22" shapeRendering="crispEdges">
+                <rect x="1" y="0" width="2" height="1" fill={c} />
+                <rect x="4" y="0" width="2" height="1" fill={c} />
+                <rect x="0" y="1" width="7" height="2" fill={c} />
+                <rect x="1" y="3" width="5" height="1" fill={c} />
+                <rect x="2" y="4" width="3" height="1" fill={c} />
+                <rect x="3" y="5" width="1" height="1" fill={c} />
+              </svg>
+            ))}
           </div>
-          <div className="flex justify-center">
-            <img
-              src="/align-logo-wordmark.svg"
-              alt="Align"
-              className="h-20 md:h-28 w-auto"
-            />
-          </div>
+          <p
+            className="font-pixel text-ink"
+            style={{ fontSize: 'clamp(2rem, 7vw, 4rem)', letterSpacing: '0.02em', lineHeight: 1.1 }}
+          >
+            align
+          </p>
         </div>
 
         <div className="grid md:grid-cols-3 gap-10 mb-12">
@@ -58,7 +66,8 @@ export default function SiteFooter() {
             </p>
             <a
               href="#early-access"
-              className="inline-block px-5 py-2.5 bg-ink text-white rounded-full text-sm font-medium hover:bg-ink/90 transition-colors mb-4"
+              className="inline-block px-5 py-2.5 bg-sage text-white text-sm font-semibold transition-transform hover:-translate-y-0.5 mb-4"
+              style={{ border: '2px solid #4A2E7A', borderRadius: 8, boxShadow: '2px 2px 0 rgba(91,62,142,0.28)' }}
             >
               Start planning, sort of
             </a>

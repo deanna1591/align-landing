@@ -28,7 +28,7 @@ export default function Hero() {
         className="absolute inset-0 pointer-events-none"
         style={{
           background:
-            'radial-gradient(ellipse 80% 60% at 50% 0%, rgba(168, 197, 171, 0.30), transparent 60%)',
+            'radial-gradient(ellipse 80% 60% at 50% 0%, rgba(255, 179, 222, 0.42), transparent 60%)',
         }}
         aria-hidden="true"
       />
@@ -65,10 +65,10 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-wrap justify-center gap-3 mb-12 md:mb-16">
-          <a href="#early-access" className="px-7 py-3.5 bg-ink hover:bg-ink/90 text-white rounded-full text-sm font-medium transition-colors">
+          <a href="#early-access" className="px-7 py-3.5 bg-sage text-white text-sm font-semibold transition-transform hover:-translate-y-0.5" style={{ border: '2px solid #4A2E7A', borderRadius: 10, boxShadow: '3px 3px 0 rgba(91,62,142,0.30)' }}>
             Start planning, sort of →
           </a>
-          <a href="#how-it-works" className="px-7 py-3.5 bg-white hover:bg-sage-tint border border-hairline text-ink rounded-full text-sm font-medium transition-colors">
+          <a href="#how-it-works" className="px-7 py-3.5 bg-cream text-ink text-sm font-semibold transition-transform hover:-translate-y-0.5" style={{ border: '2px solid #4A2E7A', borderRadius: 10, boxShadow: '3px 3px 0 rgba(91,62,142,0.18)' }}>
             Take a peek
           </a>
         </div>
@@ -87,7 +87,7 @@ function HeroAnimation() {
       <div
         className="absolute inset-0 pointer-events-none"
         style={{
-          background: 'radial-gradient(ellipse 70% 60% at 50% 50%, rgba(124, 164, 129, 0.12), transparent 70%)',
+          background: 'radial-gradient(ellipse 70% 60% at 50% 50%, rgba(255, 95, 176, 0.16), transparent 70%)',
         }}
         aria-hidden="true"
       />
@@ -105,7 +105,7 @@ function HeroAnimation() {
           className="relative"
           style={{
             width: 'min(100%, 720px)',
-            filter: 'drop-shadow(0 30px 60px rgba(27, 24, 19, 0.12))',
+            filter: 'drop-shadow(0 30px 60px rgba(91, 62, 142, 0.18))',
           }}
         >
           <AnimatedWeekView />
@@ -147,7 +147,7 @@ function HeroAnimation() {
           delay: 0.5,
         }}
       >
-        <div className="bg-white ring-1 ring-hairline rounded-2xl shadow-[0_8px_28px_rgba(27,24,19,0.10)] px-4 py-3 flex items-center gap-3 min-w-[200px]">
+        <div className="bg-white ring-1 ring-hairline rounded-2xl shadow-[0_8px_28px_rgba(91,62,142,0.16)] px-4 py-3 flex items-center gap-3 min-w-[200px]">
           <div className="w-8 h-8 rounded-full bg-sage flex items-center justify-center text-white text-sm shrink-0">
             ◐
           </div>
@@ -174,7 +174,7 @@ function HeroAnimation() {
           delay: 1.2,
         }}
       >
-        <div className="bg-cream ring-1 ring-warm/20 rounded-2xl shadow-[0_8px_28px_rgba(27,24,19,0.10)] px-4 py-3 flex items-center gap-3">
+        <div className="bg-cream ring-1 ring-warm/20 rounded-2xl shadow-[0_8px_28px_rgba(91,62,142,0.16)] px-4 py-3 flex items-center gap-3">
           <div className="w-8 h-8 rounded-full bg-warm/20 flex items-center justify-center text-warm text-sm shrink-0">
             🔥
           </div>
@@ -201,9 +201,9 @@ function HeroAnimation() {
           delay: 2.0,
         }}
       >
-        <div className="bg-white ring-1 ring-sage/20 rounded-2xl shadow-[0_8px_28px_rgba(27,24,19,0.10)] px-4 py-3 flex items-center gap-3 max-w-[230px]">
+        <div className="bg-white ring-1 ring-sage/20 rounded-2xl shadow-[0_8px_28px_rgba(91,62,142,0.16)] px-4 py-3 flex items-center gap-3 max-w-[230px]">
           <div className="w-8 h-8 rounded-full bg-sage-tint flex items-center justify-center shrink-0">
-            <div className="w-2.5 h-2.5 rounded-full bg-[#5C7A99]" />
+            <div className="w-2.5 h-2.5 rounded-full bg-[#3FB8DE]" />
           </div>
           <div>
             <p className="text-sm font-medium text-ink">Team standup</p>
@@ -228,7 +228,7 @@ function HeroAnimation() {
           delay: 2.8,
         }}
       >
-        <div className="bg-white ring-1 ring-sage/20 rounded-2xl shadow-[0_8px_28px_rgba(27,24,19,0.10)] px-4 py-3 flex items-center gap-3 min-w-[200px]">
+        <div className="bg-white ring-1 ring-sage/20 rounded-2xl shadow-[0_8px_28px_rgba(91,62,142,0.16)] px-4 py-3 flex items-center gap-3 min-w-[200px]">
           <motion.div
             className="w-8 h-8 rounded-full bg-sage flex items-center justify-center text-white text-sm shrink-0"
             animate={{ scale: [1, 1.15, 1] }}
@@ -259,7 +259,7 @@ function HeroAnimation() {
           delay: 3.5,
         }}
       >
-        <div className="bg-sage-tint ring-1 ring-sage/30 rounded-full shadow-[0_8px_28px_rgba(27,24,19,0.08)] px-4 py-2 flex items-center gap-2">
+        <div className="bg-sage-tint ring-1 ring-sage/30 rounded-full shadow-[0_8px_28px_rgba(91,62,142,0.14)] px-4 py-2 flex items-center gap-2">
           <div className="w-1.5 h-1.5 rounded-full bg-sage" />
           <p className="text-xs font-medium text-sage-deep">today is Wednesday</p>
         </div>
@@ -277,12 +277,12 @@ function AnimatedWeekView() {
 
       {/* Top bar */}
       <g transform="translate(28, 36)">
-        <circle cx="6" cy="6" r="5" fill="none" stroke="#7CA481" strokeWidth="1.2" />
-        <path d="M3 6 L5 8 L9 4" stroke="#7CA481" strokeWidth="1.2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
-        <text x="18" y="10" fontFamily="Inter Tight, sans-serif" fontSize="11" fill="#5C5448" fontWeight="500">3/5</text>
-        <rect x="48" y="5" width="50" height="3" rx="1.5" fill="#F2F2F2" />
+        <circle cx="6" cy="6" r="5" fill="none" stroke="#FF5FB0" strokeWidth="1.2" />
+        <path d="M3 6 L5 8 L9 4" stroke="#FF5FB0" strokeWidth="1.2" fill="none" strokeLinecap="round" strokeLinejoin="round" />
+        <text x="18" y="10" fontFamily="Inter Tight, sans-serif" fontSize="11" fill="#8B6FB8" fontWeight="500">3/5</text>
+        <rect x="48" y="5" width="50" height="3" rx="1.5" fill="#ECE0F8" />
         <motion.rect
-          x="48" y="5" height="3" rx="1.5" fill="#7CA481"
+          x="48" y="5" height="3" rx="1.5" fill="#FF5FB0"
           animate={{ width: [20, 30, 30, 30, 20] }}
           transition={{ duration: 8, ease: 'easeInOut', repeat: Infinity }}
         />
@@ -290,8 +290,8 @@ function AnimatedWeekView() {
 
       {/* Align wordmark */}
       <g transform="translate(28, 78)">
-        <text fontFamily="Fraunces, serif" fontStyle="italic" fontSize="24" fontWeight="500" fill="#1B1813">align</text>
-        <text x="86" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="9" fill="#5C5448" letterSpacing="0.18em" fontWeight="600">WED, MAY 13, 2026</text>
+        <text fontFamily="VT323, monospace" fontStyle="italic" fontSize="24" fontWeight="500" fill="#4A2E7A">align</text>
+        <text x="86" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="9" fill="#8B6FB8" letterSpacing="0.18em" fontWeight="600">WED, MAY 13, 2026</text>
       </g>
 
       {/* Streak indicator with pulse */}
@@ -301,32 +301,32 @@ function AnimatedWeekView() {
         transition={{ duration: 1.5, repeat: Infinity, repeatDelay: 4, ease: 'easeInOut' }}
         style={{ transformOrigin: '660px 78px' }}
       >
-        <text fontFamily="Fraunces, serif" fontSize="18" fill="#C9824A" fontWeight="500">🔥 12</text>
+        <text fontFamily="VT323, monospace" fontSize="18" fill="#9B5CFF" fontWeight="500">🔥 12</text>
       </motion.g>
 
-      <line x1="28" y1="108" x2="692" y2="108" stroke="#F2F2F2" strokeWidth="0.5" />
+      <line x1="28" y1="108" x2="692" y2="108" stroke="#ECE0F8" strokeWidth="0.5" />
 
       {/* Monday */}
       <g transform="translate(28, 140)">
-        <text fontFamily="Fraunces, serif" fontSize="16" fill="#1B1813">Monday</text>
-        <text x="68" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F" letterSpacing="0.18em" fontWeight="600">MAY 11</text>
-        <line x1="0" y1="10" x2="88" y2="10" stroke="#EAEAEA" strokeWidth="0.5" />
-        <circle cx="4" cy="28" r="2" fill="#9A917F" opacity="0.5" />
-        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#1B1813">Team standup</text>
-        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F">9:00 am</text>
+        <text fontFamily="VT323, monospace" fontSize="16" fill="#4A2E7A">Monday</text>
+        <text x="68" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6" letterSpacing="0.18em" fontWeight="600">MAY 11</text>
+        <line x1="0" y1="10" x2="88" y2="10" stroke="#B59BD8" strokeWidth="0.5" />
+        <circle cx="4" cy="28" r="2" fill="#B49ED6" opacity="0.5" />
+        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#4A2E7A">Team standup</text>
+        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6">9:00 am</text>
         {/* Animated checkoff */}
         <motion.g
           initial={{ opacity: 0 }}
           animate={{ opacity: [0, 0, 1, 1, 1] }}
           transition={{ duration: 8, repeat: Infinity, times: [0, 0.3, 0.4, 0.95, 1] }}
         >
-          <rect x="0" y="60" width="10" height="10" rx="2" fill="#7CA481" />
+          <rect x="0" y="60" width="10" height="10" rx="2" fill="#FF5FB0" />
           <path d="M2 65 L4.5 67.5 L8 63" stroke="white" strokeWidth="1.5" fill="none" strokeLinecap="round" strokeLinejoin="round" />
         </motion.g>
         <motion.text
           x="14" y="69"
           fontFamily="Inter Tight, sans-serif" fontSize="10"
-          animate={{ fill: ['#1B1813', '#1B1813', '#9A917F', '#9A917F', '#9A917F'] }}
+          animate={{ fill: ['#4A2E7A', '#4A2E7A', '#B49ED6', '#B49ED6', '#B49ED6'] }}
           transition={{ duration: 8, repeat: Infinity, times: [0, 0.3, 0.4, 0.95, 1] }}
           style={{ textDecoration: 'line-through' }}
         >
@@ -336,14 +336,14 @@ function AnimatedWeekView() {
 
       {/* Tuesday */}
       <g transform="translate(132, 140)">
-        <text fontFamily="Fraunces, serif" fontSize="16" fill="#1B1813">Tuesday</text>
-        <text x="68" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F" letterSpacing="0.18em" fontWeight="600">MAY 12</text>
-        <line x1="0" y1="10" x2="88" y2="10" stroke="#EAEAEA" strokeWidth="0.5" />
-        <circle cx="4" cy="28" r="2" fill="#9A917F" opacity="0.5" />
-        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#1B1813">Coffee w/ Sam</text>
-        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F">8:30 am</text>
-        <circle cx="4" cy="64" r="2" fill="#9A917F" opacity="0.5" />
-        <text x="12" y="68" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#1B1813">Therapy</text>
+        <text fontFamily="VT323, monospace" fontSize="16" fill="#4A2E7A">Tuesday</text>
+        <text x="68" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6" letterSpacing="0.18em" fontWeight="600">MAY 12</text>
+        <line x1="0" y1="10" x2="88" y2="10" stroke="#B59BD8" strokeWidth="0.5" />
+        <circle cx="4" cy="28" r="2" fill="#B49ED6" opacity="0.5" />
+        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#4A2E7A">Coffee w/ Sam</text>
+        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6">8:30 am</text>
+        <circle cx="4" cy="64" r="2" fill="#B49ED6" opacity="0.5" />
+        <text x="12" y="68" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#4A2E7A">Therapy</text>
       </g>
 
       {/* Wednesday - highlighted with sweep animation */}
@@ -352,15 +352,15 @@ function AnimatedWeekView() {
         animate={{ opacity: [0.5, 1, 1, 1, 0.5] }}
         transition={{ duration: 8, repeat: Infinity, times: [0, 0.2, 0.5, 0.8, 1] }}
       >
-        <rect x="232" y="120" width="104" height="280" rx="8" fill="#F5F8F4" />
+        <rect x="232" y="120" width="104" height="280" rx="8" fill="#FDF1F9" />
       </motion.g>
       <g transform="translate(240, 140)">
-        <text fontFamily="Fraunces, serif" fontSize="16" fontWeight="500" fill="#7CA481">Wednesday</text>
-        <text x="76" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#7CA481" letterSpacing="0.18em" fontWeight="600">MAY 13</text>
-        <line x1="0" y1="10" x2="88" y2="10" stroke="#7CA481" strokeWidth="0.8" />
-        <circle cx="4" cy="28" r="2" fill="#9A917F" opacity="0.5" />
-        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#1B1813">Team standup</text>
-        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F">9:00 am</text>
+        <text fontFamily="VT323, monospace" fontSize="16" fontWeight="500" fill="#FF5FB0">Wednesday</text>
+        <text x="76" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#FF5FB0" letterSpacing="0.18em" fontWeight="600">MAY 13</text>
+        <line x1="0" y1="10" x2="88" y2="10" stroke="#FF5FB0" strokeWidth="0.8" />
+        <circle cx="4" cy="28" r="2" fill="#B49ED6" opacity="0.5" />
+        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#4A2E7A">Team standup</text>
+        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6">9:00 am</text>
 
         {/* Tasks that appear sequentially */}
         <motion.g
@@ -368,62 +368,62 @@ function AnimatedWeekView() {
           animate={{ opacity: [0, 1, 1, 1, 1] }}
           transition={{ duration: 8, repeat: Infinity, times: [0, 0.15, 0.5, 0.95, 1] }}
         >
-          <rect x="0" y="60" width="10" height="10" rx="2" fill="none" stroke="#9A917F" strokeWidth="1" />
-          <text x="14" y="69" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#1B1813">Reply to Jamie</text>
+          <rect x="0" y="60" width="10" height="10" rx="2" fill="none" stroke="#B49ED6" strokeWidth="1" />
+          <text x="14" y="69" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#4A2E7A">Reply to Jamie</text>
         </motion.g>
         <motion.g
           initial={{ opacity: 0 }}
           animate={{ opacity: [0, 0, 1, 1, 1] }}
           transition={{ duration: 8, repeat: Infinity, times: [0, 0.25, 0.4, 0.95, 1] }}
         >
-          <rect x="0" y="80" width="10" height="10" rx="2" fill="none" stroke="#9A917F" strokeWidth="1" />
-          <text x="14" y="89" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#1B1813">Draft Q3 plan</text>
+          <rect x="0" y="80" width="10" height="10" rx="2" fill="none" stroke="#B49ED6" strokeWidth="1" />
+          <text x="14" y="89" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#4A2E7A">Draft Q3 plan</text>
         </motion.g>
         <motion.g
           initial={{ opacity: 0 }}
           animate={{ opacity: [0, 0, 0, 1, 1] }}
           transition={{ duration: 8, repeat: Infinity, times: [0, 0.4, 0.55, 0.7, 1] }}
         >
-          <rect x="0" y="100" width="10" height="10" rx="2" fill="none" stroke="#9A917F" strokeWidth="1" />
-          <text x="14" y="109" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#1B1813">Call dentist</text>
+          <rect x="0" y="100" width="10" height="10" rx="2" fill="none" stroke="#B49ED6" strokeWidth="1" />
+          <text x="14" y="109" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#4A2E7A">Call dentist</text>
         </motion.g>
       </g>
 
       {/* Thursday */}
       <g transform="translate(348, 140)">
-        <text fontFamily="Fraunces, serif" fontSize="16" fill="#1B1813">Thursday</text>
-        <text x="74" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F" letterSpacing="0.18em" fontWeight="600">MAY 14</text>
-        <line x1="0" y1="10" x2="88" y2="10" stroke="#EAEAEA" strokeWidth="0.5" />
-        <circle cx="4" cy="28" r="2" fill="#9A917F" opacity="0.5" />
-        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#1B1813">Pilates · Mia</text>
-        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F">9:00 am</text>
+        <text fontFamily="VT323, monospace" fontSize="16" fill="#4A2E7A">Thursday</text>
+        <text x="74" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6" letterSpacing="0.18em" fontWeight="600">MAY 14</text>
+        <line x1="0" y1="10" x2="88" y2="10" stroke="#B59BD8" strokeWidth="0.5" />
+        <circle cx="4" cy="28" r="2" fill="#B49ED6" opacity="0.5" />
+        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#4A2E7A">Pilates · Mia</text>
+        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6">9:00 am</text>
       </g>
 
       {/* Friday */}
       <g transform="translate(452, 140)">
-        <text fontFamily="Fraunces, serif" fontSize="16" fill="#1B1813">Friday</text>
-        <text x="58" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F" letterSpacing="0.18em" fontWeight="600">MAY 15</text>
-        <line x1="0" y1="10" x2="88" y2="10" stroke="#EAEAEA" strokeWidth="0.5" />
-        <circle cx="4" cy="28" r="2" fill="#9A917F" opacity="0.5" />
-        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#1B1813">Dentist</text>
-        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F">10:30 am</text>
+        <text fontFamily="VT323, monospace" fontSize="16" fill="#4A2E7A">Friday</text>
+        <text x="58" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6" letterSpacing="0.18em" fontWeight="600">MAY 15</text>
+        <line x1="0" y1="10" x2="88" y2="10" stroke="#B59BD8" strokeWidth="0.5" />
+        <circle cx="4" cy="28" r="2" fill="#B49ED6" opacity="0.5" />
+        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#4A2E7A">Dentist</text>
+        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6">10:30 am</text>
       </g>
 
       {/* Saturday */}
       <g transform="translate(556, 140)">
-        <text fontFamily="Fraunces, serif" fontSize="16" fill="#1B1813">Saturday</text>
-        <text x="76" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F" letterSpacing="0.18em" fontWeight="600">MAY 16</text>
-        <line x1="0" y1="10" x2="88" y2="10" stroke="#EAEAEA" strokeWidth="0.5" />
-        <circle cx="4" cy="28" r="2" fill="#9A917F" opacity="0.5" />
-        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#1B1813">Farmers market</text>
-        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#9A917F">8:00 am</text>
+        <text fontFamily="VT323, monospace" fontSize="16" fill="#4A2E7A">Saturday</text>
+        <text x="76" y="-2" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6" letterSpacing="0.18em" fontWeight="600">MAY 16</text>
+        <line x1="0" y1="10" x2="88" y2="10" stroke="#B59BD8" strokeWidth="0.5" />
+        <circle cx="4" cy="28" r="2" fill="#B49ED6" opacity="0.5" />
+        <text x="12" y="32" fontFamily="Inter Tight, sans-serif" fontSize="10" fill="#4A2E7A">Farmers market</text>
+        <text x="12" y="44" fontFamily="Inter Tight, sans-serif" fontSize="8" fill="#B49ED6">8:00 am</text>
       </g>
 
       {/* Sunday */}
       <g transform="translate(660, 140)">
-        <text fontFamily="Fraunces, serif" fontSize="16" fill="#1B1813">Sun</text>
-        <line x1="0" y1="10" x2="48" y2="10" stroke="#EAEAEA" strokeWidth="0.5" />
-        <text x="0" y="44" fontFamily="Inter Tight, sans-serif" fontSize="9" fill="#9A917F" fontStyle="italic">a quiet one.</text>
+        <text fontFamily="VT323, monospace" fontSize="16" fill="#4A2E7A">Sun</text>
+        <line x1="0" y1="10" x2="48" y2="10" stroke="#B59BD8" strokeWidth="0.5" />
+        <text x="0" y="44" fontFamily="Inter Tight, sans-serif" fontSize="9" fill="#B49ED6" fontStyle="italic">a quiet one.</text>
       </g>
     </svg>
   )
