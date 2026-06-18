@@ -107,7 +107,7 @@ export default function PrivacyPage() {
               <Section title="Retention and deletion">
                 <ul>
                   <li><strong>Disconnect</strong> a Google account anytime in Align (Settings &rarr; disconnect); Align promptly deletes that account&apos;s tokens and synced event data.</li>
-                  <li><strong>Delete your Align account</strong> and all your data &mdash; including Google-derived data &mdash; is permanently deleted within 30 days.</li>
+                  <li><strong>Delete your Align account</strong> anytime, right in the app (Settings &rarr; Delete account). This permanently removes your account and all your data &mdash; tasks, notes, stats, and any Google-derived data &mdash; immediately, with any residual backups cleared within 30 days.</li>
                   <li><strong>Revoke access</strong> directly from your Google Account anytime at{' '}
                     <a href="https://myaccount.google.com/permissions" className="underline" style={{ color: '#FF5FB0' }}>myaccount.google.com/permissions</a>.
                   </li>

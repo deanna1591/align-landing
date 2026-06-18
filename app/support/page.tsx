@@ -29,7 +29,7 @@ const faq: { q: string; a: ReactNode }[] = [
   },
   {
     q: 'How do I delete my account and data?',
-    a: <>Email us at <a href={`mailto:${SUPPORT_EMAIL}`} style={{ color: C.accent }}>{SUPPORT_EMAIL}</a> from the address on your account with the subject &quot;Delete my account.&quot; We&apos;ll permanently delete your account and all associated data (tasks, lists, photos, reflections) within 30 days and confirm by email.</>,
+    a: <>The fastest way is right in the app: go to <strong>Settings &rarr; Delete account</strong>, confirm, and your account and all associated data (tasks, lists, photos, reflections) are permanently deleted immediately. Prefer email? Write to <a href={`mailto:${SUPPORT_EMAIL}`} style={{ color: C.accent }}>{SUPPORT_EMAIL}</a> from the address on your account with the subject &quot;Delete my account&quot; and we&apos;ll remove everything within 30 days and confirm by email.</>,
   },
   {
     q: 'How is my data handled?',
