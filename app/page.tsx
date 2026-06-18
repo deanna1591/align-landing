@@ -7,7 +7,7 @@
 export const metadata = {
   title: { absolute: "Align ✦ plan like it's the 2000s" },
   description:
-    'A tiny Y2K planner with a big heart: pick three things, close the day. Comes with a photobooth, stickers, cut-out letters, and your own click-wheel mixtape.',
+    'A tiny Y2K planner with a big heart: pick three things, close the day. Comes with a photobooth, stickers, cut-out letters, and your own cassette mixtape.',
 };
 
 const INK = '#36215C';
@@ -181,25 +181,40 @@ export default function HomePage() {
                 <Lt ch="T" bg={C.sky} fg="#fff" rot={-2} font="Georgia, serif" />
                 <Lt ch="E" bg={INK} fg={C.sun} rot={3} />
               </div>
-              <div style={{ textAlign: 'center', fontSize: 26, margin: '2px 0 12px', letterSpacing: 6 }}>🦋💖⭐🍒👑💿</div>
+              <div style={{ textAlign: 'center', fontSize: 26, margin: '2px 0 12px', letterSpacing: 6 }}>🦋💖⭐🍒👑📼</div>
               <p style={{ margin: 0, fontSize: 14.5, lineHeight: 1.6, color: C.ink2 }}><b style={{ color: INK }}>Decorate everything.</b> Glossy Y2K stickers and a cut-out magazine alphabet — drag them anywhere, pin them like a locker door, spell whatever you&apos;re feeling.</p>
             </div>
           </Win>
 
-          {/* POD */}
-          <Win barBg="#E8EAEF" name="Pod.exe" side="♪">
+          {/* TAPE */}
+          <Win barBg="#E8EAEF" name="Tape.exe" side="♪">
             <div style={{ padding: '18px 20px 20px' }}>
-              <div style={{ width: 168, margin: '0 auto 14px', background: 'linear-gradient(160deg,#fff,#E8EAEF)', border: `2.5px solid ${INK}`, borderRadius: 18, padding: 10, boxShadow: '4px 4px 0 rgba(54,33,92,.16)' }}>
+              <div style={{ width: 188, margin: '0 auto 14px', background: 'linear-gradient(160deg,#fff,#E8EAEF)', border: `2.5px solid ${INK}`, borderRadius: 14, padding: 10, boxShadow: '4px 4px 0 rgba(54,33,92,.16)' }}>
                 <div style={{ border: `2px solid ${INK}`, borderRadius: 8, background: '#0F1014', padding: '8px 10px', marginBottom: 10 }}>
                   <div style={{ fontFamily: "'VT323', monospace", fontSize: 12, color: '#7DD87F' }}>♪ NOW PLAYING</div>
                   <div style={{ color: '#fff', fontWeight: 700, fontSize: 12, marginTop: 2 }}>your y2k playlist</div>
+                  <div style={{ height: 4, background: '#2A2D36', borderRadius: 3, marginTop: 6 }}><div style={{ width: '40%', height: '100%', background: '#7DD87F', borderRadius: 3 }} /></div>
                 </div>
-                <div style={{ position: 'relative', width: 96, height: 96, margin: '0 auto', borderRadius: 99, background: 'linear-gradient(160deg,#FAFBFC,#E9EBF0)', border: '2px solid #D4D8E0' }}>
-                  <div style={{ position: 'absolute', top: 5, left: '50%', transform: 'translateX(-50%)', fontSize: 7.5, fontWeight: 800, color: '#9AA1AD', letterSpacing: 1 }}>MENU</div>
-                  <div style={{ position: 'absolute', inset: 0, margin: 'auto', width: 36, height: 36, borderRadius: 99, border: '2px solid #D4D8E0', background: 'linear-gradient(160deg,#fff,#EEF0F4)' }} />
+                <div style={{ border: `2px solid ${INK}`, borderRadius: 10, background: 'linear-gradient(160deg,#FBE3F1,#F3D2E7)', padding: '10px 12px', marginBottom: 10 }}>
+                  <div style={{ textAlign: 'center', fontFamily: "'VT323', monospace", fontSize: 12, letterSpacing: 2, color: INK, opacity: 0.8, marginBottom: 8 }}>✦ MIXTAPE ✦</div>
+                  <div style={{ display: 'flex', justifyContent: 'center', gap: 28 }}>
+                    {[0, 1].map((i) => (
+                      <div key={i} style={{ position: 'relative', width: 34, height: 34, borderRadius: 99, border: `2px solid ${INK}`, background: '#fff', display: 'flex', alignItems: 'center', justifyContent: 'center' }}>
+                        <div style={{ position: 'absolute', width: 2, height: 13, background: INK, opacity: 0.35 }} />
+                        <div style={{ position: 'absolute', width: 2, height: 13, background: INK, opacity: 0.35, transform: 'rotate(60deg)' }} />
+                        <div style={{ position: 'absolute', width: 2, height: 13, background: INK, opacity: 0.35, transform: 'rotate(120deg)' }} />
+                        <div style={{ width: 11, height: 11, borderRadius: 99, border: `2px solid ${INK}`, background: '#FBE3F1', zIndex: 1 }} />
+                      </div>
+                    ))}
+                  </div>
+                </div>
+                <div style={{ display: 'flex', gap: 5 }}>
+                  {([['⏮', 1, '#fff', INK], ['▶', 1.5, C.accent, '#fff'], ['⏭', 1, '#fff', INK], ['≣', 1, '#fff', INK]] as [string, number, string, string][]).map(([lab, fl, bg, fg], i) => (
+                    <div key={i} style={{ flex: fl, textAlign: 'center', border: `2px solid ${INK}`, borderRadius: 6, background: bg, color: fg, fontFamily: "'VT323', monospace", fontSize: 13, padding: '4px 0', boxShadow: '2px 2px 0 rgba(54,33,92,.18)' }}>{lab}</div>
+                  ))}
                 </div>
               </div>
-              <p style={{ margin: 0, fontSize: 14.5, lineHeight: 1.6, color: C.ink2 }}><b style={{ color: INK }}>Your mixtape, on a click wheel.</b> Paste your Spotify playlist once — it lives on a draggable little player. Plan to the soundtrack.</p>
+              <p style={{ margin: 0, fontSize: 14.5, lineHeight: 1.6, color: C.ink2 }}><b style={{ color: INK }}>Your mixtape, on a tape deck.</b> Paste your Spotify playlist once — it lives on a draggable little cassette player. Plan to the soundtrack.</p>
             </div>
           </Win>
 
